@@ -1264,7 +1264,7 @@ header.page-header .main-menu.minified{
 .menus .menu .food .food-desc{
     font-size: 18px;
     font-style: italic;
-    display: table;
+    display: -webkit-inline-box;
 }
 .menus .menu .food .food-desc > div{
     display: table-cell;
