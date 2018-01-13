@@ -373,3 +373,30 @@ footer ul li a i{font-size:21px;color:#BCBCBC;-webkit-transition:all .3s;-moz-tr
 }
 @media only screen and (max-width:480px){p.sp-layer{display:none;}
 }
+
+.orderBtn {
+  background: #abc213;
+  background-image: -webkit-linear-gradient(top, #abc213, #8aa34b);
+  background-image: -moz-linear-gradient(top, #abc213, #8aa34b);
+  background-image: -ms-linear-gradient(top, #abc213, #8aa34b);
+  background-image: -o-linear-gradient(top, #abc213, #8aa34b);
+  background-image: linear-gradient(to bottom, #abc213, #8aa34b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.orderBtn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
